@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FSharp.HSM\FSharp.HSM.fsproj">
+      <Name>FSharp.HSM</Name>
+      <Project>{37d3e910-158a-479f-b0df-82f0ed4f1f7f}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+
+</Project>

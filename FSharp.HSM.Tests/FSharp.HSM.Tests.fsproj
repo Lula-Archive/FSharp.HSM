@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <ProjectGuid>{6e2ff74f-1090-4587-b39b-f6486c4160f7}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="TestHelpers.fs" />
+    <Compile Include="FunctionTests.fs" />
+    <Compile Include="Bug.fs" />
+    <Compile Include="TestHSM.fs" />
+    <Compile Include="PhoneCall.fs" />
+    <Compile Include="Order.fs" />
+    <Compile Include="Trade.fs" />
+    <Compile Include="PELICAN.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FsUnit" Version="4.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FSharp.HSM\FSharp.HSM.fsproj">
+      <Name>FSharp.HSM</Name>
+      <Project>{37d3e910-158a-479f-b0df-82f0ed4f1f7f}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
