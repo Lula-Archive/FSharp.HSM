@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Compile Include="HSM.fs" />
+    <Compile Include="Task HSM.fs" />
   </ItemGroup>
 
 
