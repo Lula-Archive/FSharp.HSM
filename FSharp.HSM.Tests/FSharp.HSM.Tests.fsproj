@@ -1,7 +1,7 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
-    <ProjectGuid>{6e2ff74f-1090-4587-b39b-f6486c4160f7}</ProjectGuid>
+    <TargetFramework>net7.0</TargetFramework>
+    <ProjectGuid>{1B972CAE-1AE4-4E13-93BF-6619F5252766}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="TestHelpers.fs" />
@@ -14,7 +14,7 @@
     <Compile Include="PELICAN.fs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="FsUnit" Version="4.0.2" />
+    <PackageReference Include="FsUnit" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FSharp.HSM\FSharp.HSM.fsproj">
